@@ -1,0 +1,259 @@
+h1{
+	font-weight: bold;
+	text-align: center;
+	font-size: 75px;
+}
+.container{
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+}
+.header_container{
+	display: flex;
+	justify-content: space-between;
+	margin: 43px 0 41px;
+	max-width: 1120px;
+	margin-left: 15%;
+	transition: 0.5s;
+	align-content: center;
+	
+	/*margin: 0 auto;*/
+}
+.first_container{
+	margin-bottom: 50px;
+}
+.first_block{
+	max-width: 280px;
+	margin-right: 20px;
+	margin: 0 auto;
+}
+.first_block_text{
+	width: 200px;
+	margin: 0 auto;
+	height: 180px;
+}
+.second_container{
+	display: flex;
+	margin-bottom: 20px;
+}
+.slider_block{
+	margin: 0 auto;
+}
+.slider_photo{
+	width: 400px;
+}
+legend{
+	border: 2px solid white;
+	border-radius: 50px;
+	margin-left: 5px;
+	text-align: center;
+	padding: 7px;
+}
+fieldset{
+	border: 2px solid white;
+	border-radius: 50px;
+}
+header{
+	background-color: black;
+}
+.header_button a{
+	color: white;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 10px;
+	border-color: white;
+	padding: 7px;
+	/*transition: 0.5s;*/
+}
+.header_button a{
+	color: white;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 10px;
+	border-color: white;
+	/*padding: 7px;*/
+	transition: 0.5s;
+}
+*{
+	font-family: verdana;
+}
+.header_button{
+	transition: 0.5s;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.header_button a:hover{
+	background-color: white;
+	color: black;
+}
+.header_button:hover{
+	transform: scale(1.2);
+}
+.header_button img{
+	width: 32px;
+	margin-bottom: 20px;
+	display: none;
+	
+}
+.header_burger{
+	display: flex;
+	margin-top: 10px;
+}
+}
+.logo{
+	display:flex;
+	justify-content: space-between;
+	/*align-items: center;*/
+}
+.logo>img{
+	margin-right: 121px;
+	position: absolute;
+	width: 78px;
+}
+body{
+	background-color: #f8fbfe;
+	background-color: black;
+}
+*{
+	font-family: "Gill Sans", sans-serif;
+	background-color: black;
+	color:white;
+}
+.footer_main{
+	display: contents;
+}
+.footer_logo img{
+	width: 200px;
+	height: 171px;
+}
+.header_button>a>span:hover, .header_button>a>strong>span:hover{
+	color: #8f8989;
+	border-bottom: groove;
+}
+.third_container {
+	display: flex;
+	margin-bottom: 200px;
+}
+.slider_text, .slider_photo {
+	margin: 0 auto;
+}
+.footer_container{
+	display: flex;
+	justify-content: space-between;
+}
+.footer_logo{
+	display: flex;
+}
+.footer_logo strong{
+	padding-top: 40px;
+}
+
+.footer_social img{
+	max-width: 50px;
+	background-color: white
+}
+@media (max-width: 1600px){
+	.main_container{
+		margin-left: 10px;
+		transition: 0.5s;
+	}
+	.header_container{
+		margin-left: 10px;
+		transition: 0.5s;
+	}
+	.second_container{
+		margin: 0 10px;
+		transition: 0.5s;
+	}
+	.fifth_container{
+		margin: 0 10px;
+		transition: 0.5s;
+	}
+}
+
+@media (max-width: 800px){
+	.header_button {
+padding-bottom: 7px;
+}
+	.header_container{
+		margin: 23px 10px;
+	}
+	.header_button img{
+	width: 32px;
+	margin-bottom: 20px;
+	display: flex;
+	margin: 0 auto;
+	}
+	.header_button{
+		margin: auto 0;
+		max-width: 400px;
+		overflow: hidden;
+		position: inherit;
+		max-height: 32px;
+		display: inline-grid;
+		margin-bottom: 20px;
+		transition: 0.5s;
+		margin-bottom: -10px;
+
+	}
+	.header_button:nth-child(1){
+		margin-top: 20px;
+	}
+	.header_button {
+		margin-top: 20px;
+		margin-right: -25px;
+	}
+	.header_button img:hover{
+		cursor:pointer;
+	}
+	.a.selected{
+		max-height:800px;
+	}
+
+	.header_burger{
+		display: inline-grid;
+		width: 172px;
+	}
+	.logo > img {
+    margin-right: 20px;
+	}
+	.header_button a:hover{
+	background-color: white;
+	color: black;
+
+	}
+	.header_button:hover{
+	transform: none;
+	}
+	.second_container{
+		display: block;
+	}
+	.first_block{
+		margin-bottom: 30px;
+	}
+	.slick-next {
+		right: 15px;
+		z-index: -1;
+	}
+	.slick-prev {
+		left: 10px;
+	}
+	.footer_logo {
+		display: flex;
+		justify-content: space-around;
+	}
+	.footer_social {
+		display: flex;
+		flex-direction: column;
+	}
+	.footer_main{
+		display: flex;
+		justify-content: space-around;
+	}
+	.footer_social a{
+		margin: 0 auto;
+	}
+	.footer_container{
+		display: block;
+	}
+}

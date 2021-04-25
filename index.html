@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Melnik Store</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+	<header>
+		<div class="header_container">
+			<div class="logo">
+				<img src="images/logo.jpg" alt="">
+			</div>
+				<nav class="header_button">
+						<img src="images/list-white.svg" class="mainbtn" alt="">
+					<div class="header_burger">						
+						<div class="header_button"><a href="">Главная</a></div>
+						<div class="header_button"><a href="">Одежда</a></div>
+						<div class="header_button"><a href="">Покупка</a></div>
+						<div class="header_button"><a href="">F&Q</a></div>
+						<div class="header_button"><a href="">Обратная связь</a></div>
+					</div>
+				</nav>		
+		</div>
+	</header>
+	<main>
+		<div class="first_container">
+		<hr>
+		<h1>
+			Melnik Store
+		</h1>
+		<hr>
+		</div>
+		<div class="second_container">
+			<div class="first_block">
+				<fieldset>
+					<legend>
+						<h2>Ваш комфорт - наша задача</h2>
+					</legend>
+					<div class="first_block_text">
+						<p>
+							Для нас самое главное, чтобы одежда была максимально красивая и удобная.
+					Приобретая одежду у нас Вы будете получать от нее удовольствие на протяжении всего времени использования
+						</p>
+					</div>
+				</fieldset>
+			</div>
+			<div class="first_block">
+				<fieldset>
+					<legend>
+						<h2>Индивидуальность превыше всего</h2>
+					</legend>
+					<div class="first_block_text">
+						<p>
+							Приобретая у нас одежду, вы получаете индивидуальную и эксклюзивную вещь, второй такой же вы не увидите.
+						</p>
+					</div>
+				</fieldset>
+			</div>
+			<div class="first_block">
+				<fieldset>
+					<legend>
+						<h2>Превосходное качество одежды</h2>
+					</legend>
+					<div class="first_block_text">
+						<p>
+							На создание даже простого элемента одежды мы прикладываем масимум усилий, для того чтобы вещь была маскимально качественной и долговечной
+						</p>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+		<div class="third_container">
+			<div class="slider_block">
+				<div class="slider_text">
+				<h4>Вы можете ознакомиться с примерами наших работ. При желании вы можете увидеть больше в разделе "Одежда"</h4>
+				</div>
+				<div class="slider_photo">
+					<img src="images/model1.jpg" alt="">
+					<img src="images/model2.jpg" alt="">
+					<img src="images/model3.jpg" alt="">
+					<img src="images/model4.jpg" alt="">
+					<img src="images/model5.jpg" alt="">
+				</div>
+			</div>							
+		</div>
+		<hr>
+	</main>
+	<footer>
+		<div class="footer_container">
+		<div class="footer_logo">
+			<img src="images/logo-hb.jpg" alt="">
+		</div>
+		<div class="footer_main">
+		<div class="footer_info">
+			<h4>Информация</h4>
+			<p>Краматорск, Донецкая область</p>
+			<p>Email: example@domen.com</p>
+			<p>Телефон: +380(000)00-00-0</p>
+		</div>
+		<div class="footer_social">
+			<h4>Social Media</h4>
+			<a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="" title="Instagram"></a>
+			<a href="https://telegram.org" target="_blank"><img src="images/telegram.png" alt="" title="Telegram"></a>
+			<a href="https://www.whatsapp.com" target="_blank"><img src="images/whatsapp.png" alt="" title="Whatsapp"></a>
+			<a href="https://www.viber.com/" target="_blank"><img src="images/viber.png" alt="" title="Viber"></a>
+		</div>
+		</div>
+		</div>
+	</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="slick.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $('.slider_photo').slick({
+		    // setting-name: setting-value
+		    autoplay:true,
+		    // dots: true,
+		  });
+		});
+	</script>
+	<script>
+		$(".mainbtn").on('click', function(event) {
+  $(event.currentTarget.parentNode).toggleClass("a selected");
+});
+	</script>		
+</body>
+</html>
